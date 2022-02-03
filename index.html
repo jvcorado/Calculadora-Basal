@@ -12,16 +12,19 @@
     <main class="container-principal">
         <section class="calculadora">
             <h1>Calculadora Basal</h1>
-            <input class="inputPeso" type="number" name="peso" id="inputPeso" placeholder="Digite seu Peso em KG: 73Kg" autofocus>
-            <input class="inputIdade" type="number" name="idade" id="inputIdade" placeholder="Digite sua Idade: 18">
-            <input type="checkbox" name="sexo" id="sexo">
-            <button class="btn-calcular"  onclick="calculo()">Calcular</button> 
-             
+            <input class="inputPeso" type="number" name="peso" id="inputPeso" placeholder="Digite seu Peso em Kg" autofocus>
+            <input class="inputIdade" type="number" name="idade" id="inputIdade" placeholder="Digite sua Idade">
+            <button class="btn-calcular" onclick="calculoHomem()">Homem</button> 
+            <button class="btn-calcular" onclick="calculoMulher()">Mulher</button> 
             <div class="resultado">
-                <p>Metabolismo Basal:</p> <span></span>
+                <p>Metabolismo Basal:</p> <span></span>Kcals
+            </div>
+            <div class="rodape">
+                <p>Desenvolvido por <a href="https://jvcorado.github.io/jvcorado.com/" target="_blank" rel="noopener noreferrer">jvcorado</a></p>
             </div>
         </section>
     </main>
+
 
 </body>
 </html>
