@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js" defer></script>
+</head>
+<body>
+    <main class="container-principal">
+        <section class="calculadora">
+            <h1>Calculadora Basal</h1>
+            <input class="inputPeso" type="number" name="peso" id="inputPeso" placeholder="Digite seu Peso em KG: 73Kg" autofocus>
+            <input class="inputIdade" type="number" name="idade" id="inputIdade" placeholder="Digite sua Idade: 18">
+            <input type="checkbox" name="sexo" id="sexo">
+            <button class="btn-calcular"  onclick="calculo()">Calcular</button> 
+             
+            <div class="resultado">
+                <p>Metabolismo Basal:</p> <span></span>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
