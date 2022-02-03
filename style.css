@@ -116,3 +116,13 @@ input::placeholder{
 span{
     font-weight: bold;
 }
+
+@media screen and (min-width:700px){
+    .calculadora{
+        width: 400px;
+    }
+    .sobre{
+        width: 400px;
+        padding-top: 50px;
+    }
+}
