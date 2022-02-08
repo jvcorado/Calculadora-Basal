@@ -1,11 +1,7 @@
 let peso = document.querySelector('#inputPeso')
 let idade = document.querySelector('#inputIdade')
 let resultado = document.querySelector('span')
-let homem = document.querySelector('#homemCheckBox');
-let mulher = document.querySelector('#mulherCheckBox');
-let opcao = null;
-homem == 1;
-mulher ==2; 
+
 
 
 function calculoHomem(){
