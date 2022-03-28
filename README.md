@@ -1,2 +1,1 @@
-# Calculadora Basal
- Projeto de Estudo para treinar JS 
+link de acesso: https://jvcorado.github.io/Calculadora-Basal/
